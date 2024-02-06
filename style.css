@@ -14,13 +14,12 @@ body {
 
 .container1 {
     font-size: 30px;
-
 }
 
 .box {
     background-color: rgb(175, 175, 255);
-    height: 350px;
-    width: 400px;
+    height: 400px;
+    width: 450px;
     border: 1px solid;
     border-radius: 5%;
 }
@@ -37,17 +36,28 @@ body {
 }
 
 .container3 {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 25px;
+
 }
 
-button {
+.container3 ol{
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0; /* Removes default padding */
+    list-style-type: upper-alpha;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.container3 li {
+    flex: 1 1 50%; /* Each list item takes up half the width of the container */
+    margin-bottom: 10px;
+}
+
+.container3 button {
     background-color: azure;
     border: none;
-    padding: 15px 32px;
+    padding: 15px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -55,5 +65,12 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    flex: 1 1 calc(50% - 10px); 
+}
+
+.container4 button {
+    background-color:rgb(175, 175, 255);
+    margin: 25px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 10px;
 }
