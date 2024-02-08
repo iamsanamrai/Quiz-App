@@ -73,4 +73,5 @@ body {
     padding: 15px 32px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
